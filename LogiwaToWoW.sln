@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogiwaToWoW", "LogiwaToWoW\LogiwaToWoW.csproj", "{1358E6E9-4DD3-4D8A-AAB6-31AB57F0BF21}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Logiwa", "Logiwa\Logiwa.sqlproj", "{A681C515-5B55-459A-B7D0-0F3E05FBC328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1358E6E9-4DD3-4D8A-AAB6-31AB57F0BF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1358E6E9-4DD3-4D8A-AAB6-31AB57F0BF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1358E6E9-4DD3-4D8A-AAB6-31AB57F0BF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1358E6E9-4DD3-4D8A-AAB6-31AB57F0BF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A681C515-5B55-459A-B7D0-0F3E05FBC328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A681C515-5B55-459A-B7D0-0F3E05FBC328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A681C515-5B55-459A-B7D0-0F3E05FBC328}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A681C515-5B55-459A-B7D0-0F3E05FBC328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A681C515-5B55-459A-B7D0-0F3E05FBC328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A681C515-5B55-459A-B7D0-0F3E05FBC328}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		SolutionGuid = {07F52A0D-E5DC-40A6-985B-1BAC43E69183}
+	EndGlobalSection
+EndGlobal
